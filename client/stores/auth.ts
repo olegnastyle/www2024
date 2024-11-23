@@ -10,9 +10,10 @@ export const useAuthStore = defineStore('auth', {
       logout() {
         this.isAuthenticated = false;
       },
-      toggleAuth() {
-          // this.toggleAuth = !this.toggleAuth;
+      visualAuth() {
+          this.toggleAuth = !this.toggleAuth;
           console.log(this.toggleAuth);
+          
       }
   },
 })

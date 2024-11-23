@@ -22,7 +22,7 @@
     </section>
 </template>
 
-<script setup>``
+<script setup>
 const auth = useAuthStore()
 auth.visualAuth()
 </script>
